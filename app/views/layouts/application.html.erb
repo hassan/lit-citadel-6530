@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LitCitadel6530</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
+<title>LitCitadel6530</title>
+<%= stylesheet_link_tag    'application', media: 'all' %>
+<%= javascript_include_tag 'application' %>
+<%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<header><%= react_component('CollectionSelector') %></header>
+<div id="main"></div>
+<footer><%= react_component('Carousel') %></footer>
 </body>
 </html>

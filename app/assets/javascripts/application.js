@@ -12,7 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//  require turbolinks
 //= require react
 //= require react_ujs
+//= require react-swipe
 //= require components
-//= require_tree .
+//  require_tree .
+
+// var ReactSwipe = require('react-swipe');
