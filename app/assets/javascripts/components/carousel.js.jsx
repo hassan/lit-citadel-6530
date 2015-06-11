@@ -1,5 +1,5 @@
 // var React = require('react')
-// var ReactSwipe = require('react-swipe')
+// var ReactSwipe = require('react-swipe');
 
 var Carousel = React.createClass({
     render: function () {
